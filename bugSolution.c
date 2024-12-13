@@ -1,0 +1,1 @@
+int main() { int x = 10; int *ptr = &x; // Modify x using the pointer *ptr = 20; printf("Value of x: %d\n", x); // Accessing x directly int y = 30; ptr = &y; // Point to a new variable *ptr = 40; printf("Value of y: %d\n", y); return 0; }
